@@ -1,0 +1,154 @@
+.flex-parent{
+     display:flex;
+     flex-direction:row;
+     justify-content: center;
+     border:4px solid #faa;
+}
+
+.profile-child
+   {
+     background: #ada;
+     width: 30%;
+     padding: 2%;
+     margin: 1%;
+     border:2px solid #faa;
+     box-shadow: 3px 3px 3px #000
+
+  }
+  .content-child
+    {
+       background: #fff;
+       width: 70%;
+       padding: 2%;
+       margin: 1%;
+    border:2px solid #faa;
+    }
+    .content-sub-child
+      {
+         background: #fff;
+         width: 95%;
+         padding: 2%;
+         margin: 1%;
+      border:2px solid #faa;
+      }
+  body{
+    background-color: #ffa;
+     flex-direction:row;
+  }
+  h4{
+      background-color: #daa;
+  }
+
+  h2{
+   padding: 1%;
+   text-align: center;
+   background-color: #fff;
+    }
+    h3{
+     padding: 1%;
+     text-align: center;
+     background-color: #fff;
+      }
+  .profile_img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+  height:auto;
+  border:2px solid #dad;
+
+}
+.profile_circle{
+   border-radius: 50%;
+   border: 1px solid #000;
+}
+a{
+  text-decoration: none;
+}
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+  .flex-parent{
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:row;
+       justify-content: center;
+       border:4px solid #faa;
+  }
+
+  .profile-child
+     {
+       background: #ada;
+       width: 100%;
+       padding: 2%;
+       margin: 1%;
+       border:2px solid #faa;
+       box-shadow: 3px 3px 3px #000
+
+    }
+    .content-child
+      {
+         background: #fff;
+         width: 100%;
+         padding: 2%;
+         margin: 1%;
+      border:2px solid #faa;
+      }
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+  .flex-parent{
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:row;
+       justify-content: center;
+       border:4px solid #faa;
+  }
+
+  .profile-child
+     {
+       background: #ada;
+       width: 75%;
+       padding: 2%;
+       margin: 1%;
+       border:2px solid #faa;
+       box-shadow: 3px 3px 3px #000
+
+    }
+    .content-child
+      {
+         background: #fff;
+         width: 75%;
+         padding: 2%;
+         margin: 1%;
+      border:2px solid #faa;
+      }
+}
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+  .flex-parent{
+       display:flex;
+       flex-wrap:wrap;
+       flex-direction:row;
+       justify-content: center;
+       border:4px solid #faa;
+  }
+
+  .profile-child
+     {
+       background: #ada;
+       width: 50%;
+       padding: 2%;
+       margin: 1%;
+       border:2px solid #faa;
+       box-shadow: 3px 3px 3px #000
+
+    }
+    .content-child
+      {
+         background: #fff;
+         width: 50%;
+         padding: 2%;
+         margin: 1%;
+      border:2px solid #faa;
+      }
+}
