@@ -10,17 +10,35 @@
     "course":"Computer Science and Engineering(Btech)",
     "college":"Gudlavalleru Engineering College",
     "data":["2015-2019","95%","Jntu-k"]
-  },
-  {
+   },
+   {
     "course":"Interediate(MPC)",
     "college":"RK junior College",
     "data":["2013-2015","97%","Intermediate AP"]
-  },
-  {
+   },
+   {
     "course":"SSC",
     "college":"Nirmala High School",
     "data":["2012-2013","95%","AP SSC"]
+   }
+ ],
+ "skills":[
+  {
+     "name":"languages known",
+     "info":["C","Python","java","javascript"]
+  },
+  {
+     "name":"Operating Systems",
+     "info":["Linux","Windows","fedora","unix"]
+  },
+  {
+     "name":"libraries",
+     "info":["jQuery","Bootstrap"]
+  },
+  {
+     "name":"Databases",
+     "info":["Mysql","pl/sql","mysqlite","oracle"]
   }
-]
 
+  ]
 }

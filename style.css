@@ -32,7 +32,7 @@
       border:2px solid #faa;
       }
   body{
-    background-color: #ffa;
+    background-color: #1F66AC;
      flex-direction:row;
   }
   h4{
@@ -48,6 +48,17 @@
      padding: 1%;
      text-align: center;
      background-color: #fff;
+      }
+      table{
+        border:2px solid #800000;
+        width: 100%;
+        font-size:25px;
+      }
+      td{
+        padding: 1%;
+      }
+      table tr:nth-child(even){
+        background: #24857C  ;
       }
   .profile_img{
   display:block;
