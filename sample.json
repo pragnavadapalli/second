@@ -4,5 +4,23 @@
     "phone":"9876543210",
     "photo":"2.png",
     "mail":"pragna3098@gmail.com"
+  },
+  "education":[
+    {
+    "course":"Computer Science and Engineering(Btech)",
+    "college":"Gudlavalleru Engineering College",
+    "data":["2015-2019","95%","Jntu-k"]
+  },
+  {
+    "course":"Interediate(MPC)",
+    "college":"RK junior College",
+    "data":["2013-2015","97%","Intermediate AP"]
+  },
+  {
+    "course":"SSC",
+    "college":"Nirmala High School",
+    "data":["2012-2013","95%","AP SSC"]
   }
+]
+
 }
